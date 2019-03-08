@@ -68,9 +68,9 @@ When you deploy your application, do not use the same Application ID for develop
 
 ![](images/Register2.png)
 
+* `npm test` - run unit tests with local chrome driver.
 * `npm start` - compile application and run it in a local server at `http://localhost:8080/`.
 * `npm run build` - compile application for deployment.
-* `npm test` - run unit tests with local chrome driver.
 * `npm run serve` - Run a production build of the application, but serve it up locally to see how the built app will behave.
 
 Use `npm run serve` to full test that Service Workers are working correctly with `webpack-dev-server` self signed certificates. Refer to [this article](https://deanhume.com/testing-service-workers-locally-with-self-signed-certificates/) on how to run Chrome with proper flags enabled for development purposes.
